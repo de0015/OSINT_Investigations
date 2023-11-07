@@ -29,7 +29,10 @@ Secretary of State - Each state has a Secretary of State website that you can us
 
 ### Many of the above data brokers have a free tier, but you can also pay for a subscription to get more information.
 
+## Local Data Sources
 Local Tax Database - Many municipalities have a tax database that you can search for property information. This information is usually public and can be used to find out who owns a property or what property someone owns.
+
+Local Criminal Database - Many municipalities and or prison systems utilize a "mug shot" database which is invaluable if the event is fairly recent.
 
 ## Web Tools:
 - <a href="https//www.Whatsmyip.org"> Whatsmyip.org</a>
