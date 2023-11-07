@@ -32,6 +32,7 @@ Secretary of State - Each state has a Secretary of State website that you can us
 Local Tax Database - Many municipalities have a tax database that you can search for property information. This information is usually public and can be used to find out who owns a property or what property someone owns.
 
 ## Web Tools:
+<ul>
 <a href="https//www.Whatsmyip.org"> Whatsmyip.org</a>
 <a href="https://mxtoolbox.com/"> mxtoolbox</a>
 <a href="https://www.shodan.io/"> Shodan</a>
@@ -42,7 +43,7 @@ Local Tax Database - Many municipalities have a tax database that you can search
 <a href="https://www.dnsstuff.com/"> DNS Stuff</a>
 <a href="https://www.dnschecker.org/"> DNS Checker</a>
 <a href="https://www.dnsqueries.com/en/"> DNS Queries</a>
-
+</ul>
 ## Custom Tools:
 
 ## Commercial Investigative Software:
