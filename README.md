@@ -30,9 +30,14 @@ Secretary of State - Each state has a Secretary of State website that you can us
 ### Many of the above data brokers have a free tier, but you can also pay for a subscription to get more information.
 
 ## Local Data Sources
+
 Local Tax Database - Many municipalities have a tax database that you can search for property information. This information is usually public and can be used to find out who owns a property or what property someone owns.
 
 Local Criminal Database - Many municipalities and or prison systems utilize a "mug shot" database which is invaluable if the event is fairly recent.
+
+Local Court Database - Many municipalities have a court database that you can search for court cases. This information is usually public and can be used to find out if someone has been involved in a court case.
+
+**Note:** Many of these databases are not indexed by Google and will not show up in a Google search. You will need to find the website for the municipality and search the website for the database.
 
 ## Web Tools:
 - <a href="https//www.Whatsmyip.org"> Whatsmyip.org</a>
@@ -48,10 +53,37 @@ Local Criminal Database - Many municipalities and or prison systems utilize a "m
 
 ## Custom Tools:
 
+- <a href="https://www.osintux.org/descargas"> "OSINTUX" - OSINT Linux Distro</a>
+- <a href = "https://pentestit.com/operating-systems-open-source-intelligence-osint-list/"> List of OSINT OS</a>
+
 ## Commercial Investigative Software:
 
-<a href= "https://www.maltego.com/"> Maltego</a>
+- <a href= "https://www.maltego.com/"> Maltego</a>
 
 ## Tips/Tricks:
 
+
 ### Google Dorks:
+
+- site:example.com - Search for a specific site
+- filetype:pdf - Search for a specific filetype
+- intitle: - Search for a specific title
+- inurl: - Search for a specific URL
+- intext: - Search for a specific text
+- cache: - Search for a cached page
+- link: - Search for a link
+- related: - Search for related sites
+- info: - Search for info about a site
+- allintitle: - Search for multiple titles
+- allinurl: - Search for multiple URLs
+- allintext: - Search for multiple texts
+- allinanchor: - Search for multiple anchors
+- inanchor: - Search for a specific anchor
+- define: - Search for a definition
+- stocks: - Search for stocks
+- map: - Search for a map
+- movie: - Search for a movie
+- weather: - Search for weather
+- site: - Search for a specific site
+- site:.gov - Search for a specific site
+- site:.edu - Search for a specific site (you get the idea)
