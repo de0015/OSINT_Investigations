@@ -87,3 +87,62 @@ Local Court Database - Many municipalities have a court database that you can se
 - site: - Search for a specific site
 - site:.gov - Search for a specific site
 - site:.edu - Search for a specific site (you get the idea)
+
+### Steps in an Investigation:
+- Gather information about the target
+- Gather information about the target's assets
+- Gather information about the target's associates
+- Gather information about the target's associates' assets
+- Gather information about the target's associates' associates
+- Gather information about the target's associates' associates' assets..
+
+You get the picture
+
+### Social Media: 
+
+**Note** - Social Media is a great way to gather information about a target. However, it is also a great way to get caught. If you are going to use social media, make sure you are using a VPN and a browser that does not have any of your personal information in it. Also, make sure you aren't logged in to any of your personal accounts. You'd be surprised how many people forget this.
+
+- <a href="https://www.facebook.com"> Facebook</a>
+- <a href="https://www.twitter.com"> Twitter</a>
+- <a href="https://www.instagram.com"> Instagram</a>
+- <a href="https://www.linkedin.com"> LinkedIn</a>
+- <a href="https://www.pinterest.com"> Pinterest</a>
+- <a href="https://www.reddit.com"> Reddit</a>
+- <a href="https://www.snapchat.com"> Snapchat</a>
+- <a href="https://www.youtube.com"> Youtube</a>
+- <a href="https://www.tiktok.com"> TikTok</a>
+- <a href="https://www.tumblr.com"> Tumblr</a>
+- <a href="https://www.flickr.com"> Flickr</a>
+- <a href="https://www.vk.com"> VK</a>
+- <a href="https://www.myspace.com"> Myspace</a>
+- <a href="https://www.meetup.com"> Meetup</a>
+- <a href="https://www.meetme.com"> Meetme</a>
+- <a href="https://www.tagged.com"> Tagged</a>
+- <a href="https://www.badoo.com"> Badoo</a>
+- <a href="https://www.minds.com"> Minds</a>
+- <a href="https://www.foursquare.com"> Foursquare</a>
+- <a href="https://www.quora.com"> Quora</a>
+- <a href="https://www.goodreads.com"> Goodreads</a>
+- <a href="https://www.livejournal.com"> Livejournal</a>
+- <a href="https://www.soundcloud.com"> Soundcloud</a>
+- <a href="https://www.vimeo.com"> Vimeo</a>
+
+There are many more social media sites, but these are the most popular.
+
+### Real Estate:
+
+**Note** - Real Estate is a great way to gather information about a target. However, the data may be old or inaccurate. Please make sure you verify the information you find. 
+
+- <a href="https://www.zillow.com"> Zillow</a>
+- <a href="https://www.trulia.com"> Trulia</a>
+- <a href="https://www.realtor.com"> Realtor</a>
+- <a href="https://www.redfin.com"> Redfin</a>
+- <a href="https://www.homes.com"> Homes</a>
+- <a href="https://www.remax.com"> Remax</a>
+- <a href="https://www.century21.com"> Century21</a>
+- <a href="https://www.coldwellbanker.com"> Coldwell Banker</a>
+- <a href="https://www.sothebysrealty.com"> Sotheby's</a>
+- <a href="https://www.kw.com"> Keller Williams</a>
+- <a href="https://www.loopnet.com"> Loopnet</a>
+- <a href="https://www.landwatch.com"> Landwatch</a>
+
