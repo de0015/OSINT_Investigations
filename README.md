@@ -9,6 +9,18 @@ So, with that, I will bring on the resources and anecdotal stories.
 
 TLDR: This community has been amazing, and below are tips, tricks, and resources to aid you in your mission.
 
+# Contents of this Repo
+- [Data Sources](#data-sources)
+- [Data Brokers](#data-brokers)
+- [Local Data Sources](#local-data-sources)
+- [Web Tools](#web-tools)
+- [Custom Tools](#custom-tools)
+- [Commercial Investigative Software](#commercial-investigative-software)
+- [Tips/Tricks](#tipstricks)
+- [Steps in an Investigation](#steps-in-an-investigation)
+- [Social Media](#social-media)
+
+
 ## Data Sources: 
 
 <a href="https://www.SEC.gov">Securities and Exchange Commission</a>
