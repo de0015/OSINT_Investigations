@@ -1,160 +1,378 @@
-# OSINT_Investigations
- Security Learnings from an old fart
+# OSINT Investigations
+## Security Learnings from an old fart
 
-Hello and welcome to my OSINT Security Repo.
-
-The purpose of this repository is to share my experience and resources back to the community. This community has been amazing to me, and the only thing I can do is to give back my experiences and the things I’ve garnered over the years. 
-
-So, with that, I will bring on the resources and anecdotal stories. 
+### 👋 Welcome
+Hello and welcome to my OSINT Security Repo. The purpose of this repository is to share my experience and resources back to the community. This community has been amazing to me, and the only thing I can do is to give back my experiences and the things I've garnered over the years.
 
 TLDR: This community has been amazing, and below are tips, tricks, and resources to aid you in your mission.
 
-# Contents of this Repo
-- [Data Sources](#data-sources)
-- [Data Brokers](#data-brokers)
-- [Local Data Sources](#local-data-sources)
-- [Web Tools](#web-tools)
-- [Custom Tools](#custom-tools)
-- [Commercial Investigative Software](#commercial-investigative-software)
-- [Tips/Tricks](#tipstricks)
-- [Steps in an Investigation](#steps-in-an-investigation)
-- [Social Media](#social-media)
+---
 
+# Unified OSINT Information Gathering Tool
 
-## Data Sources: 
+A comprehensive, modular Python tool for gathering publicly available information from the internet. This tool allows users to perform targeted OSINT investigations with flexible operation selection and automatic executive summary generation.
 
-<a href="https://www.SEC.gov">Securities and Exchange Commission</a>
+## 🎯 Features
 
-Secretary of State - Each state has a Secretary of State website that you can use to search for business information. This information is usually public and can be used to find out who owns a business or what business someone owns.
+### User-Friendly Interface
+- Interactive menu system for easy operation selection
+- Command-line support for automation and scripting
+- Input validation and error handling
 
-## Data Brokers:
+### Operation Types
 
-- <a href="https://www.beenverified.com"> Beenverified Data Broker</a>
-- <a href="https://www.whitepages.com"> Whitepages Data Broker</a>
-- <a href="https://www.spokeo.com"> Spokeo Data Broker</a>
-- <a href="https://www.fastpeoplesearch.com"> Fastpeoplesearch Data Broker</a>
-- <a href="https://www.truepeoplesearch.com"> Truepeoplesearch Data Broker</a>
-- <a href="https://www.intelius.com"> Intelius Data Broker</a>
-- <a href="https://www.instantcheckmate.com"> Instantcheckmate Data Broker</a>
-- <a href="https://www.peoplefinders.com"> Peoplefinders Data Broker</a>
-- <a href="https://www.pipl.com"> Pipl Data Broker</a>
+#### 1. Web-Based Investigation
+- **DNS Resolution**: Resolves hostnames/domains to IP addresses with reverse lookup
+- **Geolocation**: Retrieves geographic location, ISP information, and network type
+- Detects Cloudflare proxies and data center IPs
+- Provides coordinates, timezone, and postal information
 
-### Many of the above data brokers have a free tier, but you can also pay for a subscription to get more information.
+#### 2. Non-Web Investigation
+- **Social Media Search**: Checks 8 major platforms for public presence
+  - Facebook
+  - X (Twitter)
+  - Instagram
+  - LinkedIn
+  - YouTube
+  - Pinterest
+  - TikTok
+  - Reddit
 
-## Local Data Sources
+### Executive Summary Generation
+- Automatically generates targeted summaries based on operations run
+- Extracts key findings from DNS, geolocation, and social media results
+- Provides actionable recommendations
+- Saves detailed reports to files
 
-Local Tax Database - Many municipalities have a tax database that you can search for property information. This information is usually public and can be used to find out who owns a property or what property someone owns.
+### Privacy Considerations
+- Uses user-agent headers to mimic legitimate browser traffic
+- Configurable timeouts to avoid detection
+- Legal compliance warnings included
 
-Local Criminal Database - Many municipalities and or prison systems utilize a "mug shot" database which is invaluable if the event is fairly recent.
+## 📋 Contents of this Repo
 
-Local Court Database - Many municipalities have a court database that you can search for court cases. This information is usually public and can be used to find out if someone has been involved in a court case.
+### Data Sources
 
-**Note:** Many of these databases are not indexed by Google and will not show up in a Google search. You will need to find the website for the municipality and search the website for the database.
+- **[SECurities and Exchange Commission](https://www.SEC.gov)** - Company and financial information
 
-## Web Tools:
-- <a href="https//www.Whatsmyip.org"> Whatsmyip.org</a>
-- <a href="https://mxtoolbox.com/"> mxtoolbox</a>
-- <a href="https://www.shodan.io/"> Shodan</a>
-- <a href="https://www.censys.io/"> Censys</a>
-- <a href="https://www.whois.com/"> Whois</a>
-- <a href="https://www.dnsdumpster.com/"> DNS Dumpster</a>
-- <a href="https://www.dnslytics.com/"> DNS Lytics</a>
-- <a href="https://www.dnsstuff.com/"> DNS Stuff</a>
-- <a href="https://www.dnschecker.org/"> DNS Checker</a>
-- <a href="https://www.dnsqueries.com/en/"> DNS Queries</a>
+### Data Brokers
 
-## Custom Tools:
+- **[Beenverified](https://www.beenverified.com)** - Public records aggregator
+- **[Whitepages](https://www.whitepages.com)** - Contact information and public records
+- **[Spokeo](https://www.spokeo.com)** - People search and background checks
+- **[Fastpeoplesearch](https://www.fastpeoplesearch.com)** - Quick people searches
+- **[Truepeoplesearch](https://www.truepeoplesearch.com)** - Free people search engine
+- **[Intelius](https://www.intelius.com)** - Background checks and public records
+- **[Instantcheckmate](https://www.instantcheckmate.com)** - Criminal and background checks
+- **[Peoplefinders](https://www.peoplefinders.com)** - People search services
+- **[Pipl](https://www.pipl.com)** - People search with deep web results
 
-- <a href="https://www.osintux.org/descargas"> "OSINTUX" - OSINT Linux Distro</a>
-- <a href = "https://pentestit.com/operating-systems-open-source-intelligence-osint-list/"> List of OSINT OS</a>
+*Note: Many of these data brokers have a free tier, but subscriptions provide access to more information.*
 
-## Commercial Investigative Software:
+### Local Data Sources
 
-- <a href= "https://www.maltego.com/"> Maltego</a>
+- **Local Tax Database** - Property ownership information (public records)
+- **Local Criminal Database** - Recent mug shots and arrest records
+- **Local Court Database** - Court case information
 
-## Tips/Tricks:
+*Note: Many municipal databases are not indexed by Google and must be accessed directly through the municipality's website.*
 
+### Web Tools
 
-### Google Dorks:
+- **[Whatsmyip.org](https//www.Whatsmyip.org)** - IP information
+- **[MXToolbox](https://mxtoolbox.com/)** - DNS and network diagnostics
+- **[Shodan](https://www.shodan.io/)** - Internet-connected device search
+- **[Censys](https://www.censys.io/)** - Internet scanning and analysis
+- **[Whois](https://www.whois.com/)** - Domain registration information
+- **[DNS Dumpster](https://www.dnsdumpster.com/)** - DNS visualization
+- **[DNS Lytics](https://www.dnslytics.com/)** - DNS analytics
+- **[DNS Stuff](https://www.dnsstuff.com/)** - DNS tools and diagnostics
+- **[DNS Checker](https://www.dnschecker.org/)** - DNS propagation checker
+- **[DNS Queries](https://www.dnsqueries.com/en/)** - DNS diagnostic tools
 
-- site:example.com - Search for a specific site
-- filetype:pdf - Search for a specific filetype
-- intitle: - Search for a specific title
-- inurl: - Search for a specific URL
-- intext: - Search for a specific text
-- cache: - Search for a cached page
-- link: - Search for a link
-- related: - Search for related sites
-- info: - Search for info about a site
-- allintitle: - Search for multiple titles
-- allinurl: - Search for multiple URLs
-- allintext: - Search for multiple texts
-- allinanchor: - Search for multiple anchors
-- inanchor: - Search for a specific anchor
-- define: - Search for a definition
-- stocks: - Search for stocks
-- map: - Search for a map
-- movie: - Search for a movie
-- weather: - Search for weather
-- site: - Search for a specific site
-- site:.gov - Search for a specific site
-- site:.edu - Search for a specific site (you get the idea)
+### Custom Tools
 
-### Steps in an Investigation:
-- Gather information about the target
-- Gather information about the target's assets
-- Gather information about the target's associates
-- Gather information about the target's associates' assets
-- Gather information about the target's associates' associates
-- Gather information about the target's associates' associates' assets..
+- **[OSINTUX](https://www.osintux.org/descargas)** - OSINT Linux distribution
+- **[OSINT OS List](https://pentestit.com/operating-systems-open-source-intelligence-osint-list/)** - Collection of OSINT operating systems
 
-You get the picture
+### Commercial Investigative Software
 
-### Social Media: 
+- **[Maltego](https://www.maltego.com/)** - Link analysis and data visualization tool
 
-**Note** - Social Media is a great way to gather information about a target. However, it is also a great way to get caught. If you are going to use social media, make sure you are using a VPN and a browser that does not have any of your personal information in it. Also, make sure you aren't logged in to any of your personal accounts. You'd be surprised how many people forget this.
+### Tips & Tricks
 
-- <a href="https://www.facebook.com"> Facebook</a>
-- <a href="https://www.twitter.com"> Twitter</a>
-- <a href="https://www.instagram.com"> Instagram</a>
-- <a href="https://www.linkedin.com"> LinkedIn</a>
-- <a href="https://www.pinterest.com"> Pinterest</a>
-- <a href="https://www.reddit.com"> Reddit</a>
-- <a href="https://www.snapchat.com"> Snapchat</a>
-- <a href="https://www.youtube.com"> Youtube</a>
-- <a href="https://www.tiktok.com"> TikTok</a>
-- <a href="https://www.tumblr.com"> Tumblr</a>
-- <a href="https://www.flickr.com"> Flickr</a>
-- <a href="https://www.vk.com"> VK</a>
-- <a href="https://www.myspace.com"> Myspace</a>
-- <a href="https://www.meetup.com"> Meetup</a>
-- <a href="https://www.meetme.com"> Meetme</a>
-- <a href="https://www.tagged.com"> Tagged</a>
-- <a href="https://www.badoo.com"> Badoo</a>
-- <a href="https://www.minds.com"> Minds</a>
-- <a href="https://www.foursquare.com"> Foursquare</a>
-- <a href="https://www.quora.com"> Quora</a>
-- <a href="https://www.goodreads.com"> Goodreads</a>
-- <a href="https://www.livejournal.com"> Livejournal</a>
-- <a href="https://www.soundcloud.com"> Soundcloud</a>
-- <a href="https://www.vimeo.com"> Vimeo</a>
+#### Google Dorks
 
-There are many more social media sites, but these are the most popular.
+- `site:example.com` - Search within a specific site
+- `filetype:pdf` - Search for PDF files
+- `intitle:` - Search for specific titles
+- `inurl:` - Search for specific URLs
+- `intext:` - Search for specific text
+- `cache:` - View cached pages
+- `link:` - Find pages linking to a site
+- `related:` - Find related sites
+- `info:` - Get site information
+- `allintitle:` - Search multiple titles
+- `allinurl:` - Search multiple URLs
+- `allintext:` - Search multiple text snippets
+- `inanchor:` - Search for specific link text
+- `define:` - Search for definitions
+- `stocks:` - Stock information
+- `map:` - Map searches
+- `movie:` - Movie information
+- `weather:` - Weather forecasts
+- `site:.gov` - Government sites only
+- `site:.edu` - Educational sites only
 
-### Real Estate:
+#### Steps in an Investigation
 
-**Note** - Real Estate is a great way to gather information about a target. However, the data may be old or inaccurate. Please make sure you verify the information you find. 
+1. Gather information about the target
+2. Gather information about the target's assets
+3. Gather information about the target's associates
+4. Gather information about the target's associates' assets
+5. Gather information about the target's associates' associates
+6. Gather information about the target's associates' associates' assets...
 
-- <a href="https://www.zillow.com"> Zillow</a>
-- <a href="https://www.trulia.com"> Trulia</a>
-- <a href="https://www.realtor.com"> Realtor</a>
-- <a href="https://www.redfin.com"> Redfin</a>
-- <a href="https://www.homes.com"> Homes</a>
-- <a href="https://www.remax.com"> Remax</a>
-- <a href="https://www.century21.com"> Century21</a>
-- <a href="https://www.coldwellbanker.com"> Coldwell Banker</a>
-- <a href="https://www.sothebysrealty.com"> Sotheby's</a>
-- <a href="https://www.kw.com"> Keller Williams</a>
-- <a href="https://www.loopnet.com"> Loopnet</a>
-- <a href="https://www.landwatch.com"> Landwatch</a>
+*You get the picture.*
 
+#### Real Estate
+
+*Note: Real Estate data may be old or inaccurate. Always verify information.*
+
+- **[Zillow](https://www.zillow.com)** - Property listings and information
+- **[Trulia](https://www.trulia.com)** - Real estate search
+- **[Realtor.com](https://www.realtor.com)** - Official real estate listings
+- **[Redfin](https://www.redfin.com)** - Real estate brokerage services
+- **[Homes.com](https://www.homes.com)** - Property listings
+- **[Remax](https://www.remax.com)** - Real estate services
+- **[Century21](https://www.century21.com)** - Real estate franchise
+- **[Coldwell Banker](https://www.coldwellbanker.com)** - Real estate brokerage
+- **[Sotheby's](https://www.sothebysrealty.com)** - Luxury real estate
+- **[Keller Williams](https://www.kw.com)** - Real estate franchise
+- **[Loopnet](https://www.loopnet.com)** - Commercial real estate
+- **[Landwatch](https://www.landwatch.com)** - Land and property listings
+
+---
+
+# 🚀 Getting Started with Unified OSINT Tool
+
+## Requirements
+
+- **Python Version**: 3.7 or higher
+- **Required Libraries**:
+  ```bash
+  pip install requests whois
+  ```
+- **Optional Libraries** (for enhanced features):
+  ```bash
+  pip install ipinfo
+  ```
+
+## Installation
+
+1. Clone or download the repository:
+   ```bash
+   git clone <repository-url>
+   cd OSINT_Investigations
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install requests whois
+   ```
+
+3. Make the script executable (Linux/macOS):
+   ```bash
+   chmod +x UnifiedOSINT.py
+   ```
+
+## Usage
+
+### Interactive Mode
+
+Run the script without arguments to use the interactive menu:
+
+```bash
+python UnifiedOSINT.py
+```
+
+This will prompt you to:
+1. Enter your target (hostname, domain, IP, or username)
+2. Select the type of investigation you want to perform
+
+### Command-Line Mode
+
+Specify target and operation flags:
+
+```bash
+python UnifiedOSINT.py <target> [options]
+```
+
+#### Command-Line Options
+
+- `-o, --output FILE` - Save report to file
+- `--dns` - Run DNS resolution only
+- `--geo` - Run geolocation only
+- `--social` - Run social media search only
+- `--all` - Run all operations (default)
+
+#### Examples
+
+```bash
+# Run all operations for example.com
+python UnifiedOSINT.py example.com --all
+
+# Geolocation only
+python UnifiedOSINT.py 192.168.1.1 --geo
+
+# Social media search only
+python UnifiedOSINT.py username --social
+
+# Custom operations with output file
+python UnifiedOSINT.py target --dns --social -o report.txt
+
+# Quick DNS check
+python UnifiedOSINT.py domain.com --dns
+```
+
+## 📊 Output Format
+
+The tool generates structured reports with the following sections:
+
+### Detailed Sections
+- **DNS RESOLUTION**: IP addresses, reverse lookup results, name servers
+- **GEOLOCATION**: City, country, region, ISP, coordinates, network type
+- **SOCIAL MEDIA SEARCH**: Results from 8 platforms with URLs
+
+### Executive Summary
+- Operations completed
+- Key findings (IP, location, ISP, social media presence)
+- Contextual recommendations
+
+## 🔄 Workflow
+
+### Interactive Workflow
+```
+1. Select Operation Type
+   ├─ Web-based (DNS + Geo)
+   ├─ Non-web (Social Media)
+   ├─ Run All
+   └─ Custom Selection
+
+2. Enter Target
+   ├─ Hostname: example.com
+   ├─ Domain: mysite.net
+   ├─ IP: 192.168.1.1
+   └─ Username: john_doe
+
+3. Tool Processes Selected Operations
+4. Generates Executive Summary
+5. Saves Report (if requested)
+```
+
+### Command-Line Workflow
+```
+python UnifiedOSINT.py target --options
+    ↓
+Process specified operations
+    ↓
+Generate report
+    ↓
+Display and save (if -o flag used)
+```
+
+## 💡 Examples
+
+### Example 1: Web-Based Investigation
+```bash
+python UnifiedOSINT.py example.com --all
+```
+
+**Output includes:**
+- Target resolved to IP: 93.184.216.34
+- Physical location: New York, NY, USA
+- ISP/Provider: Example Networks
+- Network type: Cloudflare proxy detected
+- Social media presence: 3 platform(s) with results
+
+### Example 2: Social Media Search
+```bash
+python UnifiedOSINT.py username --social
+```
+
+**Output includes:**
+- ✓ Facebook: https://www.facebook.com/search/people/?q=username
+- ✓ X (Twitter): https://x.com/search?q=username&src=typed_query
+- ✓ Instagram: https://www.instagram.com/explore/tags/username
+- ✓ LinkedIn: https://www.linkedin.com/search/results/all/?keywords=username
+- ... (and more)
+- Social media presence: 4 platform(s) with results
+
+### Example 3: Automated Reporting
+```bash
+python UnifiedOSINT.py target --geo --social -o investigation_$(date +%Y%m%d).txt
+```
+
+This creates a timestamped report file.
+
+## ⚠️ Security and Legal Considerations
+
+### Important Warnings
+
+1. **Legality**: Only gather information from publicly available sources. Unauthorized access to private data is illegal.
+
+2. **Ethical Use**: Use this tool responsibly and for legitimate purposes only.
+
+3. **Privacy**: Respect individual privacy and comply with applicable laws.
+
+4. **Verification**: Always verify information through multiple sources before taking action.
+
+5. **Anonymity**: Use VPN and anonymity tools when conducting OSINT investigations.
+
+### Recommended Practices
+
+- Only investigate targets you have permission to examine
+- Keep detailed records of your investigation methodology
+- Cross-reference all findings
+- Use the information for legitimate security research, due diligence, or authorized investigations
+
+### Social Media Usage
+*Note - Social Media is a great way to gather information about a target. However, it is also a great way to get caught. If you are going to use social media, make sure you are using a VPN and a browser that does not have any of your personal information in it. Also, make sure you aren't logged in to any of your personal accounts.*
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+| Issue | Solution |
+|-------|----------|
+| "DNS resolution error" | Check if the target is accessible and spelling is correct |
+| "Geolocation API error" | Ensure internet connection is active |
+| "No results found on social media" | The target may not have a public presence. Try with different variations of the target name. |
+| "Module not found: requests/whois" | Install required dependencies: `pip install requests whois` |
+
+## 🏗️ Technical Details
+
+### Architecture
+- **Modular Design**: Separate classes for DNS, geolocation, social media, and reporting
+- **Type Hints**: Full type annotations for better code clarity
+- **Error Handling**: Comprehensive error handling and validation
+
+### Classes
+- `OSINTReport` - Handles report generation and formatting
+- `DNSResolver` - Performs DNS resolution and reverse lookups
+- `GeolocationChecker` - Retrieves and analyzes geolocation data
+- `SocialMediaChecker` - Searches social media platforms
+- `UnifiedOSINTTool` - Main orchestrator with user interaction
+
+### Timeout Configuration
+- DNS/Geolocation: 10 seconds
+- Social Media: 5 seconds per platform
+
+## 📞 Contact
+
+For questions, issues, or suggestions, please open an issue on the repository.
+
+---
+
+**Last Updated**: 2026-02-13
+**Version**: 1.0.0
