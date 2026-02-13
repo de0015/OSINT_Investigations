@@ -1,7 +1,7 @@
 # OSINT Investigations
 ## Security Learnings from an old fart
 
-### 👋 Welcome
+### Welcome
 Hello and welcome to my OSINT Security Repo. The purpose of this repository is to share my experience and resources back to the community. This community has been amazing to me, and the only thing I can do is to give back my experiences and the things I've garnered over the years.
 
 TLDR: This community has been amazing, and below are tips, tricks, and resources to aid you in your mission.
@@ -12,7 +12,7 @@ TLDR: This community has been amazing, and below are tips, tricks, and resources
 
 A comprehensive, modular Python tool for gathering publicly available information from the internet. This tool allows users to perform targeted OSINT investigations with flexible operation selection and automatic executive summary generation.
 
-## 🎯 Features
+## Features
 
 ### User-Friendly Interface
 - Interactive menu system for easy operation selection
@@ -49,7 +49,7 @@ A comprehensive, modular Python tool for gathering publicly available informatio
 - Configurable timeouts to avoid detection
 - Legal compliance warnings included
 
-## 📋 Contents of this Repo
+## Contents of this Repo
 
 ### Data Sources
 
@@ -154,7 +154,7 @@ A comprehensive, modular Python tool for gathering publicly available informatio
 
 ---
 
-# 🚀 Getting Started with Unified OSINT Tool
+# Getting Started with Unified OSINT Tool
 
 ## Requirements
 
@@ -249,7 +249,7 @@ The tool generates structured reports with the following sections:
 - Key findings (IP, location, ISP, social media presence)
 - Contextual recommendations
 
-## 🔄 Workflow
+##  Workflow
 
 ### Interactive Workflow
 ```
@@ -281,7 +281,7 @@ Generate report
 Display and save (if -o flag used)
 ```
 
-## 💡 Examples
+##  Examples
 
 ### Example 1: Web-Based Investigation
 ```bash
@@ -315,7 +315,7 @@ python UnifiedOSINT.py target --geo --social -o investigation_$(date +%Y%m%d).tx
 
 This creates a timestamped report file.
 
-## ⚠️ Security and Legal Considerations
+##  Security and Legal Considerations
 
 ### Important Warnings
 
@@ -350,7 +350,7 @@ This creates a timestamped report file.
 | "No results found on social media" | The target may not have a public presence. Try with different variations of the target name. |
 | "Module not found: requests/whois" | Install required dependencies: `pip install requests whois` |
 
-## 🏗️ Technical Details
+##  Technical Details
 
 ### Architecture
 - **Modular Design**: Separate classes for DNS, geolocation, social media, and reporting
@@ -368,7 +368,7 @@ This creates a timestamped report file.
 - DNS/Geolocation: 10 seconds
 - Social Media: 5 seconds per platform
 
-## 📞 Contact
+##  Contact
 
 For questions, issues, or suggestions, please open an issue on the repository.
 
